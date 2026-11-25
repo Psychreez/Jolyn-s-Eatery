@@ -1042,43 +1042,6 @@ footer a i {
     }
 }
 
-/* ===== 11. Home About Button Link ===== */
-
-.home-bottom-cta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 24px;
-    text-align: center;
-}
-
-.about-cta-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin: 0 auto;
-    padding: 10px 22px;
-    background-color: #FAF6F4;
-    color: #1A473E;
-    border: 2px solid #3D5C56;
-    border-radius: 25px;
-    font-size: clamp(13px, 1.45vw, 14.5px);
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 0 3px 10px rgba(29, 45, 42, 0.08);
-    transition: transform 0.22s ease, background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.22s ease;
-}
-
-.about-cta-btn:hover {
-    transform: translateY(-2px);
-    background-color: #3D5C56;
-    border-color: #C99DA3;
-    color: #FAF6F4;
-    box-shadow: 0 6px 14px rgba(29, 45, 42, 0.16);
-}
-
 /* Narrow phone screens: show 3-line menu toggle button */
 @media (max-width: 640px) {
     .header-tagline {
@@ -1140,4 +1103,41 @@ footer a i {
     .gallery-grid {
         grid-template-columns: minmax(0, 1fr);
     }
+}
+
+/* ===== 11. Home About Button Link ===== */
+
+.home-bottom-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.about-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto;
+    padding: 10px 22px;
+    background-color: #FAF6F4;
+    color: #1A473E;
+    border: 2px solid #3D5C56;
+    border-radius: 25px;
+    font-size: clamp(13px, 1.45vw, 14.5px);
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(29, 45, 42, 0.08);
+    transition: transform 0.22s ease, background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.22s ease;
+}
+
+.about-cta-btn:hover {
+    transform: translateY(-2px);
+    background-color: #3D5C56;
+    border-color: #C99DA3;
+    color: #FAF6F4;
+    box-shadow: 0 6px 14px rgba(29, 45, 42, 0.16);
 }

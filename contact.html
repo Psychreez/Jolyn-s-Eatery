@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Jolyn's Eatery | Contact</title>
+    <title>Jolyn's Eatery | About</title>
 
     <link rel="icon" type="image/png" href="Images/Jolyn's Logo.png">
     <link rel="stylesheet" href="css/styles.css">
@@ -40,9 +40,9 @@
             </label>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -50,128 +50,163 @@
 
     <main>
 
-        <!-- Contact Intro -->
-        <section class="contact-intro">
-            <span class="welcome-note">
-                <i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
-                We'd Love to Hear From You
-            </span>
+        <!-- Our Story Section -->
+        <section class="about-story-card">
 
-            <h2><i class="fa-solid fa-address-book" aria-hidden="true"></i> Contact Jolyn's Eatery</h2>
+            <div class="about-story-text">
+                <span class="welcome-note">
+                    <i class="fa-solid fa-store" aria-hidden="true"></i>
+                    Established August 10, 2026
+                </span>
 
-            <p>
-                Have a question about our daily home-cooked viands, short orders, or
-                deliveries? Reach out by phone, visit us in Poblacion, San Rafael, Iloilo,
-                or send us a message below.
-            </p>
+                <h2><i class="fa-solid fa-book-open" aria-hidden="true"></i> Our Story</h2>
+
+                <p>
+                    Jolyn's Eatery began in Poblacion, San Rafael, Iloilo with a clear goal:
+                    serve comforting, home-cooked Filipino meals that feel like eating at home.
+                    Whether you are dining in, placing a short order, or having food delivered,
+                    every plate is prepared with care and heart.
+                </p>
+
+                <p>
+                    Cleanliness, proper hygiene, and sanitation come first in our kitchen.
+                    Every dish is prepared with the same love and attention a mother gives her
+                    family—giving everyday guests hearty meals they can trust.
+                </p>
+            </div>
+
+            <div class="about-story-media">
+                <img src="Images/Eatery.jpg"
+                     alt="Jolyn's Eatery storefront in Poblacion, San Rafael, Iloilo"
+                     class="about-photo">
+                <span class="photo-caption">Poblacion, San Rafael, Iloilo</span>
+            </div>
+
         </section>
 
-        <!-- Two-Column Contact Details & Message Form -->
-        <div class="home-grid contact-grid">
+        <!-- Two-Column Owner & Best-Selling Products -->
+        <div class="home-grid about-align-grid">
 
-            <section class="info-card serve-card contact-details-card">
+            <section class="info-card serve-card owner-card">
 
-                <h2><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Visit &amp; Reach Us</h2>
+                <div class="owner-card-content">
+                    <div class="owner-text">
+                        <span class="owner-role-tag">
+                            <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                            Heart of the Kitchen
+                        </span>
 
-                <ul class="contact-info-list">
-                    <li>
-                        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                        <div>
-                            <strong>Address</strong>
-                            <span>Poblacion, San Rafael, Iloilo, Philippines</span>
+                        <h2><i class="fa-solid fa-user-chef" aria-hidden="true"></i> Meet the Owner</h2>
+
+                        <p>
+                            Led by <strong>Lovie Sobrevega Galan Castillo</strong>, Jolyn's Eatery is built on
+                            warm hospitality, honest pricing, and the belief that good food brings
+                            people together.
+                        </p>
+
+                        <div class="motto-quote">
+                            "Cooked with heart so every guest leaves warm and satisfied."
                         </div>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                        <div>
-                            <strong>Contact Number</strong>
-                            <span>0915 668 7540</span>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-clock" aria-hidden="true"></i>
-                        <div>
-                            <strong>Operating Hours</strong>
-                            <span>Mon–Sat: 5:00 AM – 7:00 PM • Sun: Closed</span>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                        <div>
-                            <strong>Facebook Page</strong>
-                            <a href="https://www.facebook.com/BagoongIlonggo"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="contact-inline-link">
-                                Jolyn's Eatery on Facebook
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
 
-                <div class="map-embed-wrap">
-                    <iframe
-                        src="https://www.google.com/maps?q=Poblacion,+San+Rafael,+Iloilo,+Philippines&output=embed"
-                        class="location-map"
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Map of Poblacion, San Rafael, Iloilo, Philippines">
-                    </iframe>
-                    <span class="photo-caption">Poblacion, San Rafael, Iloilo</span>
-                </div>
-
-                <div class="map-action-row">
-                    <a href="https://maps.app.goo.gl/ujZz7ANZGycvZ1D49"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="gallery-link-btn">
-                        <i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i>
-                        Open Pin in Google Maps
-                    </a>
+                    <div class="owner-cutout-wrap">
+                        <img src="Images/Owner.png"
+                             alt="Lovie Sobrevega Galan Castillo, owner of Jolyn's Eatery"
+                             class="owner-cutout">
+                    </div>
                 </div>
 
             </section>
 
-            <section class="info-card special-card contact-form-card">
+            <section class="info-card special-card">
 
-                <h2><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send a Message</h2>
+                <h2><i class="fa-solid fa-fire-burner" aria-hidden="true"></i> Best-Selling Products</h2>
 
-                <form action="#" method="post" class="contact-form">
-                    <label for="name">
-                        <i class="fa-solid fa-user" aria-hidden="true"></i> Your Name
-                    </label>
-                    <input type="text"
-                           id="name"
-                           name="name"
-                           placeholder="Enter your full name"
-                           required>
+                <p>
+                    Home-cooked favorites loved by regular diners:
+                </p>
 
-                    <label for="contact-info">
-                        <i class="fa-solid fa-phone-volume" aria-hidden="true"></i> Email or Mobile Number
-                    </label>
-                    <input type="text"
-                           id="contact-info"
-                           name="contact_info"
-                           placeholder="e.g., 09XX XXX XXXX or name@email.com"
-                           required>
-
-                    <label for="message">
-                        <i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Message / Inquiry
-                    </label>
-                    <textarea id="message"
-                              name="message"
-                              rows="5"
-                              placeholder="Ask about daily dishes, short orders, or delivery..."
-                              required></textarea>
-
-                    <button type="submit">
-                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send Message
-                    </button>
-                </form>
+                <ul class="meal-list">
+                    <li><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Pork Adobo <span class="bestseller-tag">Best Seller</span></li>
+                    <li><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Pork Sisig <span class="bestseller-tag">Best Seller</span></li>
+                    <li><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Buffalo Wings</li>
+                    <li><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Chicken Adobo</li>
+                    <li><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Ginataang Labong</li>
+                    <li><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Gulay w/ Fresh Shrimp</li>
+                </ul>
 
             </section>
 
         </div>
+
+        <!-- Values & Operating Hours -->
+        <div class="home-grid">
+
+            <section class="info-card serve-card">
+
+                <h2><i class="fa-solid fa-heart" aria-hidden="true"></i> Our Values</h2>
+
+                <ul class="values-list">
+                    <li><strong>Hygiene &amp; Cleanliness:</strong> Safe, tidy food prep every single day.</li>
+                    <li><strong>Heart &amp; Care:</strong> Cooking with the warmth of home.</li>
+                    <li><strong>Affordability:</strong> Filling meals at budget-friendly prices.</li>
+                </ul>
+
+            </section>
+
+            <section class="info-card special-card">
+
+                <h2><i class="fa-solid fa-clock" aria-hidden="true"></i> Operating Hours</h2>
+
+                <table class="hours-table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday – Saturday</td>
+                            <td>5:00 AM – 7:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+        </div>
+
+        <!-- Glimpse of Dishes Preview Card -->
+        <section class="info-card special-card about-glimpse-card">
+
+            <div class="about-glimpse-header">
+                <div>
+                    <h2><i class="fa-solid fa-utensils" aria-hidden="true"></i> A Glimpse of Our Dishes</h2>
+                    <p>
+                        Freshly cooked pans and platters from our kitchen—featuring classic
+                        comfort favorites and hearty viands.
+                    </p>
+                </div>
+
+                <a href="gallery.html" class="gallery-link-btn">
+                    <i class="fa-solid fa-images" aria-hidden="true"></i>
+                    Explore Full Gallery
+                </a>
+            </div>
+
+            <div class="about-glimpse-frame">
+                <img src="Images/foods.png"
+                     alt="Collage of home-cooked dishes and platters at Jolyn's Eatery"
+                     class="about-glimpse-img">
+                <span class="photo-caption">Freshly prepared lutong bahay favorites</span>
+            </div>
+
+        </section>
 
     </main>
 
